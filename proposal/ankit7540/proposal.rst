@@ -1,4 +1,6 @@
-**Proposal for Confocal**
+-----------------------
+Proposal for Confocal
+-----------------------
 
 A package for modelling light intensity profile in a confocal microscope using Huygens-Fresnel principle.
 
