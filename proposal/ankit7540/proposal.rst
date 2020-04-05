@@ -1,10 +1,10 @@
-Proposal for Confocal
+**Proposal for Confocal**
 
 A package for modelling light intensity profile in a confocal microscope using Huygens-Fresnel principle.
 
 https://github.com/ankit7540/Confocal
 
-Problem to solve
+**Problem to solve**
 
 Confocal microscopes achieve looking at a specific plane in/of some object which can be a liquid or a living cell. This 2D plane has a finite thickness
 which governs the volume observed by the microscope. In spectroscopic applications, the volume of the medium observed by the confocal
