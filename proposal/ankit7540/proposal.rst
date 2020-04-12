@@ -29,16 +29,16 @@ Researchers using confocal microscopes
 System architecture
 ################
 
- 1 There are n number of identified parameters required to model a microscope and I plan to used some defaults and some user input values to set up the calculation. 
+ 1. There are n number of identified parameters required to model a microscope and I plan to used some defaults and some user input values to set up the calculation. 
 
- 2 Next, is the sanity check for the parameters to be valid within physical limits.
+ 2. Next, is the sanity check for the parameters to be valid within physical limits.
  
- 3 Do computation
+ 3. Do computation
  
- 4 Print different level of results based on earlier used input.
+ 4. Print different level of results based on earlier used input.
  
  
-***
+----------
  
 
 Analyze how your system takes input, produces results, and performs any other operations.
@@ -46,6 +46,7 @@ Analyze how your system takes input, produces results, and performs any other op
 Describe the system's work flow. You may consider to use a flow chart but it is not required.
 
 Specify the constraints assume in your system. Describe how it is modularized.
+
 
 API description
 ################
