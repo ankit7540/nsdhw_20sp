@@ -29,6 +29,8 @@ Researchers using confocal microscopes
 System architecture
 ################
 
+General idea:
+
  1. There are n number of identified parameters required to model a microscope and I plan to used some defaults and some user input values to set up the calculation. 
 
  2. Next, is the sanity check for the parameters to be valid within physical limits.
@@ -40,6 +42,7 @@ System architecture
  
 ----------
  
+Flowcharts:
 
 Analyze how your system takes input, produces results, and performs any other operations.
 
@@ -66,4 +69,8 @@ Itemize the work to do and list the work items in a timeline. Estimate the effor
 References
 ################
 
-List the external references for the information provided in the proposal.
+Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, Journal of Applied Physics 110:10 (`file link
+<
+https://overclocked.space/index.php/s/u0W3hv48ktj01KU>`_)
+
+https://overclocked.space/index.php/s/u0W3hv48ktj01KU
