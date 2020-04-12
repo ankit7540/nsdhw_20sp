@@ -38,7 +38,7 @@ System architecture
  4 Print different level of results based on earlier used input.
  
  
- ***
+***
  
 
 Analyze how your system takes input, produces results, and performs any other operations.
