@@ -15,23 +15,38 @@ microscope is important (as in my reasearch). One simple use is to determine int
 be determined if the concentration in a liquid and the confocal volume is known.
 
 Field : Optics, Spectroscopy
+
 Principle : Huygens-Fresnel principle
+
 Algorithm : 3D integrals of complex valued functions
 
 
 Perspective users
 ################
 
-Researchers using confocal microscopes.
+Researchers using confocal microscopes
 
 System architecture
 ################
+
+ 1 There are n number of identified parameters required to model a microscope and I plan to used some defaults and some user input values to set up the calculation. 
+
+ 2 Next, is the sanity check for the parameters to be valid within physical limits.
+ 
+ 3 Do computation
+ 
+ 4 Print different level of results based on earlier used input.
+ 
+ 
+ ***
+ 
 
 Analyze how your system takes input, produces results, and performs any other operations.
 
 Describe the system's work flow. You may consider to use a flow chart but it is not required.
 
 Specify the constraints assume in your system. Describe how it is modularized.
+
 API description
 ################
 
@@ -41,10 +56,12 @@ Engineering infrastructure
 Describe how you plan to put together the build system, testing framework, and documentation. Show how you will do version control.
 
 You may use continuous integration, but it is not required. If you use it, describe how it works in your code development.
+
 Schedule
 ################
 
 Itemize the work to do and list the work items in a timeline. Estimate the efforts of each item.
+
 References
 ################
 
