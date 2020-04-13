@@ -40,9 +40,10 @@ General idea:
  4. Print different level of results based on earlier used input.
  
  
-----------
+
  
 Flowcharts:
+----------
 
 Analyze how your system takes input, produces results, and performs any other operations.
 
