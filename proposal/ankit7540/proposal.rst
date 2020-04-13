@@ -74,7 +74,7 @@ Schedule
 
 
 +------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
+| Header 1   | Core computation   | Time frame  |
 +============+============+===========+
 | body row 1 | column 2   | column 3  |
 +------------+------------+-----------+
