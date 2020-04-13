@@ -64,11 +64,15 @@ You may use continuous integration, but it is not required. If you use it, descr
 Schedule
 ################
 
-Itemize the work to do and list the work items in a timeline. Estimate the efforts of each item.
+|                |core computation                           | Time frame                         |
+|----------------|-------------------------------|-----------------------------|
+|Python implementation| SciPy            |2-3 weeks            |
+|C++          |Core computations move to BLAS (PyBind), User input/output still in Python.              |Other time           |
+
 
 References
 ################
 
-Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, Journal of Applied Physics 110:10 (`file link<https://overclocked.space/index.php/s/u0W3hv48ktj01KU>`_)
+Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, Journal of Applied Physics, 110, 103107 (2011)  (`link<https://overclocked.space/index.php/s/u0W3hv48ktj01KU>`_)
 
 https://overclocked.space/index.php/s/u0W3hv48ktj01KU
