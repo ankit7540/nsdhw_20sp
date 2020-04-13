@@ -64,6 +64,19 @@ You may use continuous integration, but it is not required. If you use it, descr
 Schedule
 ################
 
++------------+------------+-----------+
+|            | core computation  | Time frame   |
++============+============+===========+
+|Python implementation| SciPy            |2-3 weeks            |
++------------+------------+-----------+
+|C++          |Core computations move to BLAS (PyBind), User input/output still in Python.              |Other time           |
++------------+------------+-----------+
+| body row 3 | Cells may  | - Cells   |
++------------+ span rows. | - contain |
+| body row 4 |            | - blocks. |
++------------+------------+-----------+
+
+
 |                |core computation                           | Time frame                         |
 |----------------|-------------------------------|
 |Python implementation| SciPy            |2-3 weeks            |
