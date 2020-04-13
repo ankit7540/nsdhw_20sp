@@ -65,7 +65,7 @@ Schedule
 ################
 
 |                |core computation                           | Time frame                         |
-|----------------|-------------------------------|-----------------------------|
+|----------------|-------------------------------|
 |Python implementation| SciPy            |2-3 weeks            |
 |C++          |Core computations move to BLAS (PyBind), User input/output still in Python.              |Other time           |
 
