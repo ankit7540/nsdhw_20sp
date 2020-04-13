@@ -16,9 +16,9 @@ be determined if the concentration in a liquid and the confocal volume is known.
 
 Field : Optics, Spectroscopy
 
-Principle : Huygens-Fresnel principle
+Theory : Huygens-Fresnel principle
 
-Algorithm : 3D integrals of complex valued functions
+Algorithm : 3D integrals of complex valued functions (for numerical integration, Gauss-Legendre Quadrature or similar implementations)
 
 
 Perspective users
@@ -31,7 +31,7 @@ System architecture
 
 General idea:
 
- 1. There are n number of identified parameters required to model a microscope and I plan to used some defaults and some user input values to set up the calculation. 
+ 1. There are 5-8 number of identified parameters required to model a microscope. Plan to used some defaults and some user input values to set up the calculation. ( For example, mesh/grid density defined using step size for setting up matrix representing 3D space, focal length of lenses, etc.) 
 
  2. Next, is the sanity check for the parameters to be valid within physical limits.
  
@@ -78,9 +78,6 @@ Schedule
 References
 ################
 
-Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, Journal of Applied Physics, 110, 103107 (2011)  (link_)
+1. Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, *Journal of Applied Physics*, 110, 103107 (2011)  (link_)
 
 .. _link: https://overclocked.space/index.php/s/u0W3hv48ktj01KU
-
-
-https://overclocked.space/index.php/s/u0W3hv48ktj01KU
