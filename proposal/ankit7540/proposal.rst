@@ -64,10 +64,15 @@ You may use continuous integration, but it is not required. If you use it, descr
 Schedule
 ################
 
+
 |                            | Core computation                            | Time frame       |
+
 |----------------------------|---------------------------------------------|------------------|
+
 | Pure python implementation | SciPy (Numpy arrays used to setup matrices) | 2-3 weeks        |
+
 | Second version             | C++ with PyBind                             | rest of the time |
+
 |                            |                                             |                  |
 
 
