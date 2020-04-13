@@ -79,6 +79,6 @@ Schedule
 References
 ################
 
-1. Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, *Journal of Applied Physics*, 110, 103107, **2011**
+1. Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, *Journal of Applied Physics*, 110, 103107, **2011** (pdf_file_)
 
-.. _link: https://overclocked.space/index.php/s/u0W3hv48ktj01KU
+.. _pdf_file: https://overclocked.space/index.php/s/u0W3hv48ktj01KU
