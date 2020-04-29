@@ -47,6 +47,12 @@ General idea:
 Flowcharts:
 ----------
 
+.. image:: fl1.svg
+    :width: 140px
+    :align: center
+    :height: 230px
+    :alt: alternate text
+    
 Analyze how your system takes input, produces results, and performs any other operations.
 
 Describe the system's work flow. You may consider to use a flow chart but it is not required.
