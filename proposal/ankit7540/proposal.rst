@@ -16,12 +16,19 @@ be determined if the concentration in a liquid and the confocal volume is known.
 
 General scheme of a confocal microscope is given below.
 
-.. image:: cfm.jpg
+.. image:: cfm.png
     :width: 220px
     :align: center
     :height: 225px
     :alt: alternate text
 
+Observed volume is a 3D bi-conical section.
+
+.. image:: cfm2.jpg
+    :width: 220px
+    :align: center
+    :height: 225px
+    :alt: alternate text
 
 **Field** : Optics, Spectroscopy
 
