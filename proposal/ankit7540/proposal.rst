@@ -69,14 +69,15 @@ General scheme
     :height: 475px
     :alt: alternate text
     
+----------    
     
-**Computation scheme**
+**Core computation scheme**
 Not final but in general the following sums up the computation route.
 
 .. image:: fl2.png
-    :width: 220px
+    :width: 190px
     :align: center
-    :height: 475px
+    :height: 325px
     :alt: alternate text    
     
 Analyze how your system takes input, produces results, and performs any other operations.
@@ -106,6 +107,7 @@ Defined functions are
  (dicrete FFT of the output from the ``ampl_oplane`` function)
 
 
+------------
 
 
 **C++/PyBind implementation :**
