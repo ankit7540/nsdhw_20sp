@@ -25,16 +25,16 @@ General scheme of a confocal microscope is given below.
 Observed volume at the focal plane is a 3D bi-conical section.
 
 .. image:: cfm2.jpg
-    :width: 200px
+    :width: 180px
     :align: center
-    :height: 205px
+    :height: 200px
     :alt: alternate text
 
 **Field** : Optics, Spectroscopy
 
 **Theory** : Huygens-Fresnel principle
 
-**Algorithm** : 3D integrals of complex valued functions (for numerical integration, Gauss-Legendre Quadrature or similar implementations)
+**Algorithm** : 3D integrals of complex valued functions (for numerical integration, Gauss-Legendre Quadrature or similar implementations) For a full mathematical description refer to the paper mentioned in the reference.
 
 
 Perspective users
@@ -80,11 +80,6 @@ Not final but in general the following sums up the computation route.
     :height: 325px
     :alt: alternate text    
     
-Analyze how your system takes input, produces results, and performs any other operations.
-
-Describe the system's work flow. You may consider to use a flow chart but it is not required.
-
-Specify the constraints assume in your system. Describe how it is modularized.
 
 
 API description
