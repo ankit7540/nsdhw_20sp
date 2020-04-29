@@ -67,19 +67,14 @@ API description
 
 Defined functions are
 
- * excitn
+  ``excitn``
 (real output, desc : intensity of excitation beam in the object medium )
 
- * ampl_splane
+  ``ampl_splane``
 (complex output, desc : scattering amplitude from a point in the scattering plane )
 
- * ampl_oplane
+  ``ampl_oplane``
 (complex output, desc : scattering amplitude from all point from object medium, includes double integral)
-
-
-
-
-
 
 
 
@@ -88,15 +83,17 @@ Defined functions are
 
 These have not been explicitly defined in the program yet. But general scheme is as for the pure python implementation.
 
- * excitn
+ ``excitn``
 (real output, desc : intensity of excitation beam in the object medium )
 
- * ampl_splane 
+ ``ampl_splane ``
 (complex output, desc : scattering amplitude from a point in the scattering plane )
 
- * ampl_oplane
+ ``ampl_oplane``
 (complex output, desc : scattering amplitude from all point from object medium, includes double integral)
 
+
+**External libraries **
 
 Numerical integration : Quadpack 
 
