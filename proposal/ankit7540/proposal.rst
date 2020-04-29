@@ -10,7 +10,7 @@ Problem to solve
 ################
 
 Confocal microscopes achieve looking at a specific plane in some object which can be a liquid or a living cell. This 2D plane has a finite thickness
-which governs the volume observed by the microscope. In spectroscopic applications, the volume of the medium observed by the confocal
+which governs the volume observed by the microscope. In spectroscopic applications, the **volume of the medium observed** by the confocal
 microscope is important (as in my reasearch). Determination of this volume by theoretical modelling is the aim of the present work. Applications of this volume are numerous, such as, estimation of intrinsic property of molecules to give some signal, which can 
 be determined if the concentration in a liquid and the confocal volume is known.
 
@@ -74,7 +74,10 @@ Defined functions are
 (complex output, desc : scattering amplitude from a point in the scattering plane )
 
   ``ampl_oplane``
-(complex output, desc : scattering amplitude from all point from object medium, includes double integral)
+(complex output, desc : scattering amplitude from all point from object medium, includes double integral with complex result)
+
+ ``fft_output``
+ (dicrete FFT of the output from the ``ampl_oplane`` function)
 
 
 
@@ -83,19 +86,11 @@ Defined functions are
 
 These have not been explicitly defined in the program yet. But general scheme is as for the pure python implementation.
 
- ``excitn``
-(real output, desc : intensity of excitation beam in the object medium )
+------------
 
- ``ampl_splane ``
-(complex output, desc : scattering amplitude from a point in the scattering plane )
+**External libraries**
 
- ``ampl_oplane``
-(complex output, desc : scattering amplitude from all point from object medium, includes double integral)
-
-
-**External libraries **
-
-Numerical integration : Quadpack 
+Numerical integration : Quadpack  (GSL C implementation of Quadpack)
 
 **Version control**
 
@@ -107,7 +102,8 @@ Github markdown
 
 
 **Others**
-Build system, CI and others have been planned yet.
+
+Build system, CI and others have not been planned yet.
 
 
 Schedule
@@ -117,7 +113,7 @@ Schedule
 +------------+--------------------+-------------+
 | Type       | Core computation   | Time frame  |
 +============+====================+=============+
-| Pure python| SciPy              | 2-4 weeks   |
+| Pure python| SciPy              | 2-3 weeks   |
 +------------+--------------------+-------------+
 | With C++   | PyBind, C++        |remaining    |
 +------------+--------------------+-------------+
