@@ -14,7 +14,14 @@ which governs the volume observed by the microscope. In spectroscopic applicatio
 microscope is important (as in my reasearch). Determination of this volume by theoretical modelling is the aim of the present work. Applications of this volume are numerous, such as, estimation of intrinsic property of molecules to give some signal, which can 
 be determined if the concentration in a liquid and the confocal volume is known.
 
-The problem is shown using simple figure below.
+General scheme of a confocal microscope is given below.
+
+.. image:: cfm.jpg
+    :width: 220px
+    :align: center
+    :height: 225px
+    :alt: alternate text
+
 
 **Field** : Optics, Spectroscopy
 
