@@ -22,12 +22,12 @@ General scheme of a confocal microscope is given below.
     :height: 225px
     :alt: alternate text
 
-Observed volume is a 3D bi-conical section.
+Observed volume at the focal plane is a 3D bi-conical section.
 
 .. image:: cfm2.jpg
-    :width: 220px
+    :width: 200px
     :align: center
-    :height: 225px
+    :height: 205px
     :alt: alternate text
 
 **Field** : Optics, Spectroscopy
@@ -61,11 +61,23 @@ General idea:
 Flowcharts:
 ----------
 
+General scheme
+
 .. image:: fl1.svg
     :width: 220px
     :align: center
     :height: 475px
     :alt: alternate text
+    
+    
+**Computation scheme**
+Not final but in general the following sums up the computation route.
+
+.. image:: fl2.png
+    :width: 220px
+    :align: center
+    :height: 475px
+    :alt: alternate text    
     
 Analyze how your system takes input, produces results, and performs any other operations.
 
@@ -140,3 +152,7 @@ References
 1. Confocal volume in laser Raman microscopy depth profiling, Yutaka Maruyama & Wataru Kanematsu, *Journal of Applied Physics*, 110, 103107, **2011** (pdf_file_)
 
 .. _pdf_file: https://overclocked.space/index.php/s/u0W3hv48ktj01KU
+
+
+2. Images from : Olympus microscopy, ThorLabs
+
