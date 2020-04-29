@@ -63,12 +63,55 @@ Specify the constraints assume in your system. Describe how it is modularized.
 API description
 ################
 
-Show how a user programmatically uses your system. You are supposed to implement the system using both C++ and Python. Describe how a user writes a script in the system. If you provide API in both C++ and Python, describe both.
-Engineering infrastructure
+**Pure python implementation :**
 
-Describe how you plan to put together the build system, testing framework, and documentation. Show how you will do version control.
+Defined functions are
 
-You may use continuous integration, but it is not required. If you use it, describe how it works in your code development.
+excitn
+(real output, desc : intensity of excitation beam in the object medium )
+
+ampl_splane 
+(complex output, desc : scattering amplitude from a point in the scattering plane )
+
+ampl_oplane
+(complex output, desc : scattering amplitude from all point from object medium, includes double integral)
+
+
+
+
+
+
+
+
+
+**C++/PyBind implementation :**
+
+These have not been explicitly defined in the program yet. But general scheme is as for the pure python implementation.
+
+excitn
+(real output, desc : intensity of excitation beam in the object medium )
+
+ampl_splane 
+(complex output, desc : scattering amplitude from a point in the scattering plane )
+
+ampl_oplane
+(complex output, desc : scattering amplitude from all point from object medium, includes double integral)
+
+
+Numerical integration : Quadpack 
+
+**Version control**
+
+Git
+
+**Documentation**
+
+Github markdown
+
+
+**Others**
+Build system, CI and others have been planned yet.
+
 
 Schedule
 ################
