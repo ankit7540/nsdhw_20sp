@@ -9,16 +9,18 @@ https://github.com/ankit7540/Confocal
 Problem to solve
 ################
 
-Confocal microscopes achieve looking at a specific plane in/of some object which can be a liquid or a living cell. This 2D plane has a finite thickness
+Confocal microscopes achieve looking at a specific plane in some object which can be a liquid or a living cell. This 2D plane has a finite thickness
 which governs the volume observed by the microscope. In spectroscopic applications, the volume of the medium observed by the confocal
-microscope is important (as in my reasearch). One simple use is to determine intrinsic property of molecules to give some signal, which can 
+microscope is important (as in my reasearch). Determination of this volume by theoretical modelling is the aim of the present work. Applications of this volume are numerous, such as, estimation of intrinsic property of molecules to give some signal, which can 
 be determined if the concentration in a liquid and the confocal volume is known.
 
-Field : Optics, Spectroscopy
+The problem is shown using simple figure below.
 
-Theory : Huygens-Fresnel principle
+**Field** : Optics, Spectroscopy
 
-Algorithm : 3D integrals of complex valued functions (for numerical integration, Gauss-Legendre Quadrature or similar implementations)
+**Theory** : Huygens-Fresnel principle
+
+**Algorithm** : 3D integrals of complex valued functions (for numerical integration, Gauss-Legendre Quadrature or similar implementations)
 
 
 Perspective users
@@ -31,11 +33,11 @@ System architecture
 
 General idea:
 
- 1. There are 5-8 number of identified parameters required to model a microscope. Plan to used some defaults and some user input values to set up the calculation. ( For example, mesh/grid density defined using step size for setting up matrix representing 3D space, focal length of lenses, etc.) 
+ 1. There are 5-8 number of parameters required to model a microscope. Plan to used some defaults and some user input values to set up the calculation. ( For example, mesh/grid density defined using step size for setting up matrix representing 3D space, focal length of lenses, wavelength of light, and integral limits) 
 
  2. Next, is the sanity check for the parameters to be valid within physical limits.
  
- 3. Do computation
+ 3. Do computation (integration)
  
  4. Print different level of results based on earlier used input.
  
