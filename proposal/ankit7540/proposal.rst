@@ -14,7 +14,7 @@ which governs the volume observed by the microscope. In spectroscopic applicatio
 microscope is important (as in my reasearch). Determination of this volume by theoretical modelling is the aim of the present work. Applications of this volume are numerous, such as, estimation of intrinsic property of molecules to give some signal, which can 
 be determined if the concentration in a liquid and the confocal volume is known.
 
-General scheme of a confocal microscope is given below.
+General scheme of a confocal microscope is given below. (Image from Olympus microscopy)
 
 .. image:: cfm.png
     :width: 220px
@@ -22,7 +22,7 @@ General scheme of a confocal microscope is given below.
     :height: 225px
     :alt: alternate text
 
-Observed volume at the focal plane is a 3D bi-conical section.
+Observed volume at the focal plane is a 3D bi-conical section. (Image from ThorLabs)
 
 .. image:: cfm2.jpg
     :width: 180px
@@ -57,7 +57,6 @@ General idea:
  
  
 
- 
 Flowcharts:
 ----------
 
@@ -107,7 +106,7 @@ Defined functions are
 
 **C++/PyBind implementation :**
 
-These have not been explicitly defined in the program yet. But general scheme is as for the pure python implementation.
+These have not been explicitly defined in the program yet. But general scheme is as for the pure python implementation mentioned above.
 
 ------------
 
