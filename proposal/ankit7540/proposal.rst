@@ -48,9 +48,9 @@ Flowcharts:
 ----------
 
 .. image:: fl1.svg
-    :width: 140px
+    :width: 220px
     :align: center
-    :height: 230px
+    :height: 475px
     :alt: alternate text
     
 Analyze how your system takes input, produces results, and performs any other operations.
